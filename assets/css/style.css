@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Updated css to reflect the added header and nav elements */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -74,8 +76,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* Changed the benefits class to an aside element */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -188,13 +190,15 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* Changed .footer to footer */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
